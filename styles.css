@@ -51,24 +51,7 @@ h3 {
 .latit {
   color: #FC0505;
 }
-/*
-.dropdown {
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-}
 
-.dropdown .dropbtn {
-  border: none;
-  outline: none;
-  background-color: inherit;
-  font: inherit;
-  margin: 0;
-}
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #f9f9f9;
-} 
-*/
 .visdiv {
   /*display: none;*/
   display: inline-block;
@@ -87,13 +70,7 @@ h3 {
   display: block;
   text-align: left;
 }
-/*
-.visdiv a:hover {
-  background-color: #ddd;
-}
-.dropdown:hover .visdiv {
-  display: block;
-} */
+
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {
   /*height: 100px;*/
@@ -117,14 +94,6 @@ h3 {
   margin-right: 100px;
   margin-left: 100px;
 }
-/*
-table {
-  margin-right: 50px;
-  margin-left: 0px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-*/
 
 .tdl {
   padding: 10px;
@@ -165,6 +134,55 @@ table {
   padding: 0px;
   margin: 0;
 }
+
+.vividworknav {
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 0;
+  float: left;
+  padding: 0;
+  position: relative;
+}
+
+.vividworknav:hover img {
+  opacity: 0.3;
+}
+
+.vividworknav:hover .work-text-content {
+  opacity: 1;
+}
+
+.vividworknav img {
+  padding: 10px;
+  /*width: auto; */
+  display: block;
+  opacity: 1;
+  background-color: #E2D9D9;
+}
+
+.vividworknav img,
+.work-text-content {
+  -webkit-transition: opacity 0.5s ease-out;
+  -moz-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+}
+
+
+.work-text-content {
+  position: absolute;
+  color: #410101;
+  left: 0;
+  top: 45%;
+  right: 0;
+  bottom: 0;
+  font-size: 32px;
+  text-align: center;
+  opacity: 0;
+  font-family: Calibri;
+}
+
 
 /* BONUS */
 /* #nav-select {
