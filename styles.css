@@ -1,7 +1,8 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: rgba(248, 247, 247, 0.97);
+  /*background: rgba(248, 247, 247, 0.97);*/
+  background: rgba(252, 248, 242, 0.97);
 }
 
 h1 {
